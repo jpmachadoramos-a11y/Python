@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login · Consulta.me</title>
+  <link rel="icon" href="../assets/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700;800&display=swap">
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header-container">
+      <a class="brand" href="../index.html">
+        <img src="../assets/logo-icone.png" alt="" width="113" height="96">
+        <span>Consulta<strong>.me</strong></span>
+      </a>
+    </div>
+  </header>
+
+  <main class="container page page-center">
+    <section class="card auth-card">
+      <img src="../assets/logo.png" alt="Consulta.me Clinic" class="auth-logo" width="440" height="245">
+      <h1 class="page-title">Acesse sua conta</h1>
+      <p class="page-subtitle">Entre para gerenciar médicos e consultas.</p>
+
+      <form method="post" action="#" class="form">
+        <div class="form-group">
+          <label for="username">E-mail</label>
+          <input id="username" name="username" type="email" placeholder="seu@email.com" autocomplete="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="password">Senha</label>
+          <input id="password" name="password" type="password" placeholder="Sua senha" autocomplete="current-password" required>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-lg btn-block">Entrar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <img src="../assets/logo-aluno.svg" alt="Logo Aluno" width="203" height="64">
+      <p>2025 © Desenvolvido por Aluno | Projeto fictício sem fins comerciais.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

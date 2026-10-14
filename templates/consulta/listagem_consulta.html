@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Listagem de consultas · Consulta.me</title>
+  <link rel="icon" href="../assets/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700;800&display=swap">
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header-container">
+      <a class="brand" href="../login/index_logado.html">
+        <img src="../assets/logo-icone.png" alt="" width="113" height="96">
+        <span>Consulta<strong>.me</strong></span>
+      </a>
+
+      <nav class="nav" aria-label="Principal">
+        <a href="../medico/listagem_medico.html" class="nav-link">Médicos</a>
+        <a href="./listagem_consulta.html" class="nav-link" aria-current="page">Consultas</a>
+      </nav>
+
+      <details class="user-menu">
+        <summary><span class="avatar">W</span><span class="user-menu-name">Olá, William</span></summary>
+        <div class="user-menu-list">
+          <a href="../index.html">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4M16 17l5-5-5-5M21 12H9"/></svg>
+            Sair
+          </a>
+        </div>
+      </details>
+    </div>
+  </header>
+
+  <main class="container page">
+    <div class="page-header">
+      <div>
+        <h1 class="page-title">Listagem de consultas</h1>
+        <p class="page-subtitle">Acompanhe as consultas agendadas.</p>
+      </div>
+
+      <a href="./cadastrar_consulta.html" class="btn btn-primary">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+        Nova consulta
+      </a>
+    </div>
+
+    <section class="card card-table">
+      <div class="table-wrapper">
+        <table class="tabela">
+          <thead>
+            <tr>
+              <th>Nome</th>
+              <th>E-mail</th>
+              <th>Telefone</th>
+              <th>CPF</th>
+              <th class="col-acoes">Ações</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Mariana de Assis</td>
+              <td>mariana@gmail.com</td>
+              <td>21989897676</td>
+              <td>123456789</td>
+              <td class="col-acoes">
+                <div class="acoes">
+                  <a href="#" class="icon-btn" title="Editar" aria-label="Editar">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>
+                  </a>
+                  <a href="#" class="icon-btn icon-btn-danger" title="Excluir" aria-label="Excluir">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18M8 6V4h8v2M19 6l-1 14H6L5 6M10 11v6M14 11v6"/></svg>
+                  </a>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <img src="../assets/logo-aluno.svg" alt="Logo Aluno" width="203" height="64">
+      <p>2025 © Desenvolvido por Aluno | Projeto fictício sem fins comerciais.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

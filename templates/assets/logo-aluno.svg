@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="3 7 203 64" width="203" height="64" role="img" aria-label="aluno">
+  <g fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <!-- a -->
+    <circle cx="24.5" cy="50" r="15.5"/>
+    <path d="M40 34.5V65.5"/>
+    <!-- l -->
+    <path d="M56.5 12.5V65.5"/>
+    <!-- u -->
+    <path d="M73.5 34.5V50a15.5 15.5 0 0 0 31 0M104.5 34.5V65.5"/>
+    <!-- n -->
+    <path d="M121.5 34.5V65.5M121.5 50a15.5 15.5 0 0 1 31 0V65.5"/>
+    <!-- o -->
+    <circle cx="184.5" cy="50" r="15.5"/>
+  </g>
+</svg>

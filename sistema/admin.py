@@ -13,3 +13,5 @@ class MedicoAdmin(admin.ModelAdmin):
 @admin.register(models.Consulta)
 class ConsultaAdmin(admin.ModelAdmin):
     list_display = ('id', 'paciente_id', 'medico_id', 'status','consulta_nova')
+
+
