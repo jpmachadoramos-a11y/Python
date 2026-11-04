@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>{% include "global/_head.html" %}</head>
+
+<body>
+
+  <main class="hero">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <span class="hero-eyebrow">Consulta.me</span>
+        <h1 class="hero-title">Encontre profissionais de <span>diversas especialidades</span></h1>
+        <p class="hero-subtitle">e agende sua consulta com facilidade</p>
+
+        <div class="hero-actions">
+          <a href="./login/login.html" class="btn btn-light btn-lg">Agendar consulta</a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img src="{% static 'assets/medico.webp' %}" alt="Médico com máscara" width="802" height="1111">
+        <img src="{% static 'assets/medica.webp' %}" alt="Médica com estetoscópio" width="740" height="988">
+      </div>
+    </div>
+  <footer> {% include "global/_footer.html"%}</footer>
+  </main>
+</body>
+
+</html>
+
